@@ -9,6 +9,7 @@ Este programa lo desarrollé gracias a los conocimientos que adquirí dentro del
    - `main.py`: Configura la interfaz gráfica e inicializa la aplicación.
    - `generate_password.py`: Contiene la función para generar contraseñas aleatorias.
    - `save_password.py`: Contiene la función para guardar las contraseñas generadas.
+   - `encrypt_password.py`: Contiene las funciones para encriptar y desencriptar las contraseñas almacendas.
    - `find_password.py`: Contiene la función para buscar contraseñas almacenadas.
    - `show_password.py`: Contiene la función para mostrar u ocultar la contraseña según la configuración del usuario.
 
