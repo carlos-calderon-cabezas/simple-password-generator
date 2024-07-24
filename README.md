@@ -5,10 +5,8 @@ Este programa lo desarrollé gracias a los conocimientos que adquirí dentro del
 ## Contenido del proyecto:
 
 - Logo creado para este proyecto `logo.png`.
-- Archivos fuente que contienen los diferentes módulos que permiten el correcto funcionamiento del programa:
+- Archivo fuente que permite el correcto funcionamiento del programa:
    - `main.py`: Archivo que ejecuta todos los módulos del programa de generación y almacenamiento de contraseñas.
-   - `grid_colspan.py`: Contiene la cuadrícula con todos los elementos visuales del programa.
-   - `pass_gen.py`: El módulo que genera contraseñas aleatoriamente en caso de que el usuario así lo desee.
 
 
 ## Instrucciones de uso:
