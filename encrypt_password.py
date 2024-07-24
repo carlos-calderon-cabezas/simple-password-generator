@@ -22,6 +22,6 @@ def encrypt_pass(un_enc_password):
     return enc_password
 
 
-def decrypt_pass(enc_message):
-    dec_message = rsa.decrypt(enc_message, privateKey).decode()
+def decrypt_pass(enc_password):
+    dec_message = rsa.decrypt(enc_password, privateKey).decode()
     return dec_message
