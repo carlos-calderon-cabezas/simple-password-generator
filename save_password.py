@@ -1,19 +1,22 @@
 from tkinter import messagebox
 import json
+from encrypt_password import encrypt_pass
 
 
 def save(website_entry, email_entry, password_entry):
     website = website_entry.get()
     email = email_entry.get()
-    password = password_entry.get()
+    unencrypted_pass = password_entry.get()
+    password = encrypt_pass(unencrypted_pass)
+
     new_data = {
         website: {
             "email": email,
-            "password": password,
+            "password": password.hex(),
         },
     }
 
-    if len(website) == 0 or len(email) == 0 or len(password) == 0:
+    if len(website) == 0 or len(email) == 0 or len(unencrypted_pass) == 0:
         messagebox.showinfo(title="Error", message="Please don't leave any fields empty!")
         return
 
