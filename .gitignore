@@ -5,6 +5,7 @@ __pycache__/
 
 # Project Files
 data.json
+rsa_keys/
 
 # C extensions
 *.so
