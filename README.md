@@ -4,10 +4,13 @@ Este programa lo desarrollé gracias a los conocimientos que adquirí dentro del
 
 ## Contenido del proyecto:
 
-- Logo creado para este proyecto `logo.png`.
-- Archivo fuente que permite el correcto funcionamiento del programa:
-   - `main.py`: Archivo que ejecuta todos los módulos del programa de generación y almacenamiento de contraseñas.
-
+- Logo creado para este proyecto: `logo.png`.
+- Archivos fuente que permiten el correcto funcionamiento del programa:
+   - `main.py`: Configura la interfaz gráfica e inicializa la aplicación.
+   - `generate_password.py`: Contiene la función para generar contraseñas aleatorias.
+   - `save_password.py`: Contiene la función para guardar las contraseñas generadas.
+   - `find_password.py`: Contiene la función para buscar contraseñas almacenadas.
+   - `show_password.py`: Contiene la función para mostrar u ocultar la contraseña según la configuración del usuario.
 
 ## Instrucciones de uso:
 
