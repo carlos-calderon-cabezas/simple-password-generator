@@ -8,7 +8,6 @@ Este programa lo desarrollé gracias a los conocimientos que adquirí dentro del
 - Archivos fuente que contienen los diferentes módulos que permiten el correcto funcionamiento del programa:
    - `main.py`: Archivo que ejecuta todos los módulos del programa de generación y almacenamiento de contraseñas.
    - `grid_colspan.py`: Contiene la cuadrícula con todos los elementos visuales del programa.
-   - `json_practice.py`: Permite leer y escribir en el archivo **JSON** donde se almacenan y de donde se leen las contraseñas almacenadas.
    - `pass_gen.py`: El módulo que genera contraseñas aleatoriamente en caso de que el usuario así lo desee.
 
 
