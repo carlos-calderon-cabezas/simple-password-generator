@@ -1,6 +1,9 @@
 import os
 import rsa
 
+if not (os.path.exists("rsa_keys")):
+    os.mkdir("rsa_keys")
+
 if not (os.path.exists("rsa_keys/publicKey.pem") and os.path.exists("rsa_keys/privateKey.pem")):
     publicKey, privateKey = rsa.newkeys(2048)
     with open("rsa_keys/publicKey.pem", "wb") as key:
