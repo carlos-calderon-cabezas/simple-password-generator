@@ -2,6 +2,20 @@
 
 Este programa lo desarrollé gracias a los conocimientos que adquirí dentro del curso de **100 días de python** cursado en la plataforma de *Udemy*.
 
+[**Click here for the English version**](https://github.com/carlos-calderon-cabezas/password-generator/blob/main/README_EN.md)
+
+## Tabla de Contenidos
+
+- [Descripción del proyecto](#descripción-del-proyecto)
+- [Contenido del proyecto](#contenido-del-proyecto)
+- [Instrucciones de uso](#instrucciones-de-uso)
+  - [Almacenar contraseñas](#almacenar-contraseñas)
+  - [Recuperar contraseñas almacenadas](#recuperar-contraseñas-almacenadas)
+
+## Descripción del proyecto
+
+Este programa se puede usar tanto para almacenar contraseñas, como para recuperar las contraseñas almacenadas previamente, tal como se muestra a continuación:
+
 ## Contenido del proyecto:
 
 - Logo creado para este proyecto: `logo.png`.
@@ -9,16 +23,14 @@ Este programa lo desarrollé gracias a los conocimientos que adquirí dentro del
    - `main.py`: Configura la interfaz gráfica e inicializa la aplicación.
    - `generate_password.py`: Contiene la función para generar contraseñas aleatorias.
    - `save_password.py`: Contiene la función para guardar las contraseñas generadas.
-   - `encrypt_password.py`: Contiene las funciones para encriptar y desencriptar las contraseñas almacendas.
+   - `encrypt_password.py`: Contiene las funciones para encriptar y desencriptar las contraseñas almacenadas.
    - `find_password.py`: Contiene la función para buscar contraseñas almacenadas.
    - `show_password.py`: Contiene la función para mostrar u ocultar la contraseña según la configuración del usuario.
 
 ## Instrucciones de uso:
 
-Este programa se puede usar tanto para almacenar contraseñas, como para recuperar las contraseñas almacenadas previamente, tal como se muestra a continuación:
-
 ### Almacenar contraseñas:
-1. Se coloca un nombre de sitio  se sea fácil de recordar.
+1. Se coloca un nombre de sitio que sea fácil de recordar.
 2. Se coloca el email o nombre de usuario dentro de ese sitio web.
 3. Se puede colocar la contraseña que el usuario estableció previamente para ese sitio web, o puede generar una nueva contraseña aleatoria con el botón `Generate Password`.
 4. Se hace clic en el botón `Add` para almacenar la nueva contraseña.
